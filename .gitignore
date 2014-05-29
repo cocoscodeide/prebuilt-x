@@ -1,0 +1,4 @@
+# Ignore thumbnails created by windows
+
+.gitignore
+/frameworks/cocos2d-x/
