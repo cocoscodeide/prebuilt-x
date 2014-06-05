@@ -1,5 +1,5 @@
 {
-  "init_cfg": { 
+  "init_cfg": {
     "isLandscape": true,
     "name": "PrebuiltRuntimeLua",
     "width": 960,
