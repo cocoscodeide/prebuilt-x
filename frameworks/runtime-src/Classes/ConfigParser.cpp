@@ -94,7 +94,7 @@ void ConfigParser::readConfig()
 ConfigParser::ConfigParser(void):_isInit(false),_isLandscape(true)
 {
     _initViewSize.setSize(960,640);
-    _viewName = "HelloLua";
+    _viewName = "PrebuiltRuntimeLua";
     _entryfile = "src/main.lua";
 }
 
