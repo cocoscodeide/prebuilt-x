@@ -1,4 +1,4 @@
-/****************************************************************************
+ /****************************************************************************
 Copyright (c) 2013 cocos2d-x.org
 
 http://www.cocos2d-x.org
@@ -822,7 +822,7 @@ bool initRuntime()
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) 
 #ifndef _DEBUG 
-    return false; 
+//    return false; 
 #endif 
 #elif(CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID) 
 #ifdef NDEBUG 
@@ -871,7 +871,7 @@ bool startRuntime()
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) 
 #ifndef _DEBUG 
-    return false; 
+//    return false; 
 #endif 
 #elif(CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID) 
 #ifdef NDEBUG 
